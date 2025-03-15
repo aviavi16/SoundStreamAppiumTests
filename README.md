@@ -33,10 +33,22 @@ Start Appium Server:
 ```
 
 ### **4. Start Android Emulator**
-If you’re using an Android emulator:
-```sh
- C:\Users\erani\AppData\Local\Android\Sdk\emulator\emulator -avd Pixel_7
-```
+1. **Open Command Prompt (CMD)**
+2. Navigate to the Android Emulator directory:
+   ```sh
+   cd %LOCALAPPDATA%\Android\Sdk\emulator
+   emulator -avd
+emulator -list-avds
+Start an emulator:
+emulator -avd Pixel_7_API_30
+Verify the emulator is running:
+adb devices
+Expected output:
+List of devices attached
+emulator-5554   device
+
+then start the appium command in the terminal in your project folder
+
 
 ### **5. Run Tests**
 Execute the tests using NUnit:
