@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Allure.NUnit.Attributes;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
@@ -122,40 +123,6 @@ public class WebDriverHelper : BaseWebDriverManager
         {
             Console.WriteLine($"Element {by} not found after waiting.");
             return null;
-        }
-    }
-
-    // ✅ Take a screenshot and save it
-    public void TakeScreenshot(string testName)
-    {
-        try
-        {
-            if (driver != null)
-            {
-                string screenshotsDirectory = GetScreenshotsDirectory();
-                string screenshotFilePath = Path.Combine(screenshotsDirectory, $"screenshot_{DateTime.Now:yyyyMMdd_HHmmss}.png");
-
-                // Take screenshot
-                if (driver is ITakesScreenshot screenshotHandler)
-                {
-                    Screenshot screenshot = screenshotHandler.GetScreenshot();
-                    string screenshotPath = Path.Combine("output", "screenshots", $"TestRun_{DateTime.Now:yyyyMMdd_HHmmss}.png");
-
-                    // Ensure directory exists
-                    Directory.CreateDirectory(Path.GetDirectoryName(screenshotPath)!);
-
-                    File.WriteAllBytes(screenshotFilePath, screenshot.AsByteArray);
-                    Console.WriteLine($"Screenshot saved at: {screenshotPath}");
-                }
-                else
-                {
-                    Console.WriteLine("Driver does not support screenshots.");
-                }            
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error taking screenshot: {ex.Message}");
         }
     }
 

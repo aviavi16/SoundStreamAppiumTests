@@ -1,9 +1,14 @@
-﻿using OpenQA.Selenium.Appium.Android;
+﻿using Microsoft.VisualStudio.TestPlatform.ObjectModel.Client;
 using OpenQA.Selenium;
 
-public interface IWebDriverManager
+namespace SoundStreamAppiumTests2
 {
-    AndroidDriver InitWebDriver();
-    IWebDriver? GetDriver(); 
-    void Dispose();
+    public interface IWebDriverManager
+    {
+        IWebDriver StartWebDriverSession();
+        void TakeScreenshot(string name);
+        void QuitWebDriver();
+        WebDriverHelper? BrowserHelper { get; }
+        ITestLogger Logger { get; }
+    }
 }

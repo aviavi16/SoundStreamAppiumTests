@@ -7,8 +7,40 @@
       "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:webapptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\configurations\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:configurations\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\webdriver\\androidwebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:webdriver\\androidwebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\reports\\testlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:reports\\testlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\reports\\itestlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:reports\\itestlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\reports\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:reports\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\webdriver\\iwebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:webdriver\\iwebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\webdriver\\webdriverhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:webdriver\\webdriverhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|c:\\develop\\soundstreamappiumtests2\\webdriver\\basewebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F984866-3392-4E18-A14F-7D4A427B48CA}|SoundStreamAppiumTests2.csproj|solutionrelative:webdriver\\basewebdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,26 +102,130 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITestLogger.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\ITestLogger.cs",
+              "RelativeDocumentMoniker": "Reports\\ITestLogger.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\ITestLogger.cs",
+              "RelativeToolTip": "Reports\\ITestLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:08:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestLogger.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\TestLogger.cs",
+              "RelativeDocumentMoniker": "Reports\\TestLogger.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\TestLogger.cs",
+              "RelativeToolTip": "Reports\\TestLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:52:25.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigurationHelper.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Configurations\\ConfigurationHelper.cs",
+              "RelativeDocumentMoniker": "Configurations\\ConfigurationHelper.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Configurations\\ConfigurationHelper.cs",
+              "RelativeToolTip": "Configurations\\ConfigurationHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:36:27.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\Logger.cs",
+              "RelativeDocumentMoniker": "Reports\\Logger.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Reports\\Logger.cs",
+              "RelativeToolTip": "Reports\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:11:18.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T05:05:39.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseWebDriverManager.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\BaseWebDriverManager.cs",
+              "RelativeDocumentMoniker": "Webdriver\\BaseWebDriverManager.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\BaseWebDriverManager.cs",
+              "RelativeToolTip": "Webdriver\\BaseWebDriverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:23:10.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebDriverHelper.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\WebDriverHelper.cs",
+              "RelativeDocumentMoniker": "Webdriver\\WebDriverHelper.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\WebDriverHelper.cs",
+              "RelativeToolTip": "Webdriver\\WebDriverHelper.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:19:49.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWebDriverManager.cs",
+              "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\IWebDriverManager.cs",
+              "RelativeDocumentMoniker": "Webdriver\\IWebDriverManager.cs",
+              "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\IWebDriverManager.cs",
+              "RelativeToolTip": "Webdriver\\IWebDriverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:01:57.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WebAppTest.cs",
               "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\WebAppTest.cs",
               "RelativeDocumentMoniker": "WebAppTest.cs",
               "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\WebAppTest.cs",
               "RelativeToolTip": "WebAppTest.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAUwE0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAIAxwFAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T19:12:48.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AndroidWebDriverManager.cs",
               "DocumentMoniker": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\AndroidWebDriverManager.cs",
               "RelativeDocumentMoniker": "Webdriver\\AndroidWebDriverManager.cs",
               "ToolTip": "C:\\develop\\SoundStreamAppiumTests2\\Webdriver\\AndroidWebDriverManager.cs",
               "RelativeToolTip": "Webdriver\\AndroidWebDriverManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAASwGAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T19:12:03.958Z",
               "EditorCaption": ""

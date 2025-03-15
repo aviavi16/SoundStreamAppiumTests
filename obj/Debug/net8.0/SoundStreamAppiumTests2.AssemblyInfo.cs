@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoundStreamAppiumTests2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29da1c8eabe8eb3aa9575d983fb8091bfcd75d05")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoundStreamAppiumTests2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoundStreamAppiumTests2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

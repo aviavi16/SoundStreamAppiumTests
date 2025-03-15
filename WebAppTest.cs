@@ -1,8 +1,11 @@
-﻿using OpenQA.Selenium;
+﻿using Allure.NUnit;
+using Allure.NUnit.Attributes;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using Serilog.Core;
 using Assert = NUnit.Framework.Assert;
 
-
+[AllureNUnit]
 [TestFixture]
 public class WebAppTest
 {
@@ -15,7 +18,9 @@ public class WebAppTest
         try
         {
             _manager = new AndroidWebDriverManager();
-            webDriver = _manager.InitWebDriver();
+            _manager.Logger.LogInfo("Starting test setup..."); // ✅ Correct usage
+
+            webDriver = _manager.StartWebDriverSession(); // ✅ Ensure correct method name
 
             if (_manager == null || webDriver == null)
             {
@@ -24,12 +29,13 @@ public class WebAppTest
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Setup failed: " + ex.Message);
+            _manager?.Logger.LogError(ex, "Setup Failed");
             throw;
         }
     }
 
     [Test]
+    [AllureStep("Verify Home Screen Loads Successfully")]
     public void VerifyWebAppLoads()
     {
         try
@@ -58,17 +64,27 @@ public class WebAppTest
         {
             if (_manager != null)
             {
-                _manager.Dispose();  // Automatically takes a screenshot
+                _manager.Logger.LogInfo("Tearing down WebDriver session...");
+
+                // Capture a screenshot if the test failed
+                if (TestContext.CurrentContext.Result.Outcome.Status == NUnit.Framework.Interfaces.TestStatus.Failed)
+                {
+                    _manager.TakeScreenshot("TestFailureScreenshot");
+                }
+
+                // Quit WebDriver properly
+                _manager.QuitWebDriver();
             }
 
             if (webDriver != null)
             {
+                _manager?.Logger.LogInfo("Disposing WebDriver...");
                 webDriver.Dispose();
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine("TearDown failed: " + ex.Message);
+            _manager?.Logger.LogError(ex, "TearDown Error");
         }
     }
 }
